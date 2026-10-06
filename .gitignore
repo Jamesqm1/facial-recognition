@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Downloaded models
+models/*.onnx
+
+# Face images and embeddings (personal data - keep out of git)
+data/known/*
+!data/known/.gitkeep
+data/*.npz
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
